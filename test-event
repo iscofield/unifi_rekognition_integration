@@ -1,0 +1,150 @@
+{
+    "Records": [
+        {
+            "eventVersion": "1.0",
+            "ses": {
+                "mail": {
+                    "commonHeaders": {
+                        "from": [
+                            "UniFi Video <noreply@ubnt.com>"
+                        ],
+                        "to": [
+                            "Ian `"
+                        ],
+                        "returnPath": "bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com",
+                        "messageId": "<30048246.20170517023204.591bb624373f30.05875290@mail135-35.atl141.mandrillapp.com>",
+                        "date": "Wed, 17 May 2017 02:32:04 +0000",
+                        "subject": "Motion Detected: Front Door"
+                    },
+                    "source": "bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com",
+                    "timestamp": "2017-05-17T02:32:06.488Z",
+                    "destination": [
+                        "blah@blah.com"
+                    ],
+                    "headers": [
+                        {
+                            "name": "Return-Path",
+                            "value": "<bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com>"
+                        },
+                        {
+                            "name": "Received",
+                            "value": "from mail135-35.atl141.mandrillapp.com (mail135-35.atl141.mandrillapp.com [198.2.135.35]) by inbound-smtp.us-west-2.amazonaws.com with SMTP id gi2cr03pls8ekvtqaqp7denu5n6aodu3al4dnp81 for blah@blah.com; Wed, 17 May 2017 02:32:06 +0000 (UTC)"
+                        },
+                        {
+                            "name": "X-SES-Spam-Verdict",
+                            "value": "PASS"
+                        },
+                        {
+                            "name": "X-SES-Virus-Verdict",
+                            "value": "PASS"
+                        },
+                        {
+                            "name": "Received-SPF",
+                            "value": "pass (spfCheck: domain of tr.ubnt.com designates 198.2.135.35 as permitted sender) client-ip=198.2.135.35; envelope-from=bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com; helo=mail135-35.atl141.mandrillapp.com;"
+                        },
+                        {
+                            "name": "Authentication-Results",
+                            "value": "amazonses.com; spf=pass (spfCheck: domain of tr.ubnt.com designates 198.2.135.35 as permitted sender) client-ip=198.2.135.35; envelope-from=bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com; helo=mail135-35.atl141.mandrillapp.com; dkim=pass header.i=@ubnt.com; dkim=pass header.i=@mandrillapp.com;"
+                        },
+                        {
+                            "name": "X-SES-RECEIPT",
+                            "value": "AEFBQUFBQUFBQUFGVldYNy9xTVRBOUhzSk5oSmpvdkNYaTh6U3d4aktBS3pUT3F1ZXJZbGF1ZnNWb3FwVWE3NzFXZmFBUGd4Y2tGWFd3S2ludWphYVhFWUs2K1c0R28zTTVYNFdWcVU5K1lwWjZLV1pkSVNOcGg1WDJlTGREYVVvQ1Z6Q3R2TTlaczdVM1lhcjlGc25FNmEvcXEzYkQ1U2RqR3JEZ0ZOL3hOQi9BNE40bGxsVTE5a2JjemlXdWxFUnp0RDBKZ1oxZmNDNWxoNWVPVG5ueWpHK2loU01mZEdRQjl6Y3hETzNnaXlwa0F3Y281SzRYeEZCc25tUUhsVEluQWV4L08xbStWNEdOczJTYUZuanRKZ3graHJHa09BQWFwTS9kdW1DUnh3R3loc2t1dHA0OHE1ckgzbVFlTjlLUEI2MGU1M1RkeEhqQ3lCaW03ZmhLblZrb0duaFdHYVE="
+                        },
+                        {
+                            "name": "X-SES-DKIM-SIGNATURE",
+                            "value": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=hsbnp7p3ensaochzwyq5wwmceodymuwv; d=amazonses.com; t=1494988328; h=X-SES-RECEIPT:From:Subject:To:Message-Id:Date:MIME-Version:Content-Type; bh=Roi3/7Oi7rmYUC7Z7vRedAZEUBV5wM2qp8aMeuPUgcE=; b=dMAPtW3G33xPSkqHnCqx7d1ApxUl2Ek8l94RSNJTKiX4UrdO0N5NRgA5nEmmY3XE QJYA+OuJEfldLYXKJrbT/keb6FOb03+xsME3sFvUXqP4L3pTu2boVg7ZTiNavOyh9rL sHR/4GPPrBlJos2Fi3dXbvn+TqsSnRUkLcdBZV2c="
+                        },
+                        {
+                            "name": "DKIM-Signature",
+                            "value": "v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=ubnt.com; h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type; i=noreply@ubnt.com; bh=FKvywIRnYH5lxL3PlIOia4Ws9c8=; b=fJAFAS8vHCUxv4UStooTRodBGCz0bGCUTbEZVMfF3ljp6e8/jITGOd/6UfykX/e56D7/9yHRz0dn/Lm6LbN4LRw9o/lf1adANHvwezzs0h7JR2V+kuWFptn9LJWQTY89qMf4LzqYYt9cQ6bkKNfGsqL4u/HyJyicqbVjCk3hlXs="
+                        },
+                        {
+                            "name": "Received",
+                            "value": "from pmta03.mandrill.prod.atl01.rsglab.com (127.0.0.1) by mail135-35.atl141.mandrillapp.com id h3er2c1sau88 for <blah@blah.com>; Wed, 17 May 2017 02:32:05 +0000 (envelope-from <bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com>)"
+                        },
+                        {
+                            "name": "DKIM-Signature",
+                            "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1494988324; h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type:From:Subject:Date:X-Mandrill-User:List-Unsubscribe; bh=ii67clSpWQRCEFOjHGku1VDSrZGI7UmvAJ4HpExlRf0=; b=BuP/GJxLmvz1NQNQlB9NVi1K8W4kMHD3+aZxcNtU+GEOiZY+jk7rHmh0j/3Cr8PE40jrBPsXzqdIidtRzo0AvfB6rykCkgA3/H4LQbpfMxcXgBp5SYV8W2gJOyKqw8fPx1t1yZ91yRY1oXUADnCM/FJbsuSGS1poi5mluS62UQk="
+                        },
+                        {
+                            "name": "From",
+                            "value": "UniFi Video <noreply@ubnt.com>"
+                        },
+                        {
+                            "name": "Subject",
+                            "value": "Motion Detected: Front Door"
+                        },
+                        {
+                            "name": "Return-Path",
+                            "value": "<bounce-md_30048246.591bb624.v1-ef65fa6417414e059c66a64b55336f6f@tr.ubnt.com>"
+                        },
+                        {
+                            "name": "Received",
+                            "value": "from [54.215.246.54] by mandrillapp.com id ef65fa6417414e059c66a64b55336f6f; Wed, 17 May 2017 02:32:04 +0000"
+                        },
+                        {
+                            "name": "To",
+                            "value": "Ian <blah@blah.com>"
+                        },
+                        {
+                            "name": "X-Report-Abuse",
+                            "value": "Please forward a copy of this message, including all headers, to abuse@mandrill.com"
+                        },
+                        {
+                            "name": "X-Report-Abuse",
+                            "value": "You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30048246.ef65fa6417414e059c66a64b55336f6f"
+                        },
+                        {
+                            "name": "X-Mandrill-User",
+                            "value": "md_30048246"
+                        },
+                        {
+                            "name": "Message-Id",
+                            "value": "<30048246.20170517023204.591bb624373f30.05875290@mail135-35.atl141.mandrillapp.com>"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 17 May 2017 02:32:04 +0000"
+                        },
+                        {
+                            "name": "MIME-Version",
+                            "value": "1.0"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "multipart/related; boundary=\"_av-gTSgykk2lN8Zabh-wV9xxA\""
+                        }
+                    ],
+                    "headersTruncated": false,
+                    "messageId": "gi2cr03pls8ekvtqaqp7denu5n6aodu3al4dnp81"
+                },
+                "receipt": {
+                    "recipients": [
+                        "blah@blah.com"
+                    ],
+                    "timestamp": "2017-05-17T02:32:06.488Z",
+                    "spamVerdict": {
+                        "status": "PASS"
+                    },
+                    "dkimVerdict": {
+                        "status": "PASS"
+                    },
+                    "action": {
+                        "invocationType": "Event",
+                        "type": "Lambda",
+                        "functionArn": "arn:aws:lambda:us-west-2:227518703200:function:unifi-motion-rekognition",
+                        "topicArn": "arn:aws:sns:us-west-2:227518703200:unifi-motion"
+                    },
+                    "processingTimeMillis": 2641,
+                    "spfVerdict": {
+                        "status": "PASS"
+                    },
+                    "virusVerdict": {
+                        "status": "PASS"
+                    }
+                }
+            },
+            "eventSource": "aws:ses"
+        }
+    ]
+}
